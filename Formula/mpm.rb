@@ -10,10 +10,10 @@ class Mpm < Formula
 
     if Hardware::CPU.arm?
         url "https://github.com/ywl0806/mpm/releases/download/v1.0.0/mpm-darwin-arm64.tar.gz"
-        sha256 "66d4a8f943d92fbad727c9884cb1c50af90cf07cb839adf106e0d5d4bebdfdb3"
+        sha256 "fde648b1a89c84fcd4b1ad0f071490b873e5ebbca8bd0c311ac327cc1d3c0dc9"
       else
         url "https://github.com/ywl0806/mpm/releases/download/v1.0.0/mpm-darwin-amd64.tar.gz"
-        sha256 "7a7050a7d54f884bd46ee4a1f6d639377ff63c7e6e862c82d19b76949234d381"
+        sha256 "84c559f61a69456603139f0920f16b842bcc34d319f216f61a455374c46f4a45"
       end
 
       def install
