@@ -18,7 +18,7 @@ class Mpm < Formula
 
       def install
         bin.install "mpm"
-        chmod 0755, "#{bin}/mpm"
+        chmod 0775, "#{bin}/mpm"
       end
 
       test do
